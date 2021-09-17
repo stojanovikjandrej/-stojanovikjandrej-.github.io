@@ -128,7 +128,7 @@ nav ul ul ul li{
     cursor: pointer;
   }
   .show:hover{
-    color: cyan;
+    color: yellowgreen;
   }
   .icon{
     display: block;
@@ -289,6 +289,8 @@ p{
   padding: 100px 0 20px;
   background:black;
   color: white;
+
+
 }
 .footer-row{
   width:80%;
@@ -297,7 +299,9 @@ p{
   justify-content: space-between;
   flex-wrap: wrap;
   height:250px;
+
 }
+
 .footer-left, .footer-right, .footer-center{
   flex-basis: 32%;
   padding:10px;
@@ -473,5 +477,120 @@ p{
 
 .footer-row p{
   font-size: 20px;
+
+}
+@media only screen and (max-width: 600px) {
+
+ .text-box h1{
+
+    font-size: 40px;
+
+  }
+ .text-box{
+   position:absolute;
+   top:480px;
+
+ }
+ #ptica{
+   height: 8em;
+ }
+
+.footer-left h3{
+  font-size: 20px;
+}
+.footer-left p{
+  font-size: 15px;
+}
+  .footer-right h3{
+    font-size: 20px;
+  }
+  .footer-right p{
+    font-size: 15px;
+  }
+.footer-center img{
+  width: 200px;
+  height: 100px;
+}
+.footer-left, .footer-center, .footer-right{
+
+
+  position: absolute;
+  margin-bottom:0;
+
+}
+.footer-left{
+ left:0;
+
+}
+.footer-center b{
+  font-size: 20px;
+
+}
+.footer-center {
+margin-top: 7em;
+  margin-left: 10em;
+
+
+}
+.footer-right{
+
+  right:0;
+}
+.footer-row{
+  margin: 0px 0px 0px 0px;
+
+}
+.show{
+  z-index: 10;
+}
+  .dropdown{
+    z-index: 1;
+    overflow: visible;
+  }
+  .text-box h1{
+    overflow: hidden;
+    z-index: 0;
+  }
+  .iframe{display: inline-block;
+    margin-left: -270px;
+width:200px;
+  }
+  iframe{
+   padding: 0;
+align-content: center;
+    width:300px;
+    height:200px;
+
+
+  }
+
+  .text-center{
+    height:500px;
+
+  }
+  .text-center p{
+    height:500px;
+    padding-bottom: 600px;
+  }
+  .text-center img{
+
+    top:300px;
+
+  }
+  .container-fluid{
+    height: 700px;
+    font-size: 13px;
+  }
+
+  .row{
+    flex-direction: column;
+  }
+  .rowc{
+    flex-direction: column;
+  }
+  .rowp{
+    flex-direction: column;
+  }
+
 
 }
